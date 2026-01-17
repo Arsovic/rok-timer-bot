@@ -117,15 +117,12 @@ Running Bot (background)
 py -3.10 rok_tg_bot.py
 
 📝 File Structure
-text
 rok-timer-bot/
 ├── rok_panel.py          # GUI panel for OCR and sending timers
 ├── rok_tg_bot.py         # Telegram bot for receiving timers
-├── run_panel.bat         # Batch file for quick panel launch
 ├── accounts.json         # Stores account list (created automatically)
 ├── region.json           # Stores selected OCR region (created automatically)
 ├── timers.json           # Stores active timers (created automatically)
-├── waifu.ico             # Icon for .exe files
 └── README.md             # This file
 
 🔧 Building .exe Files (optional)
@@ -166,5 +163,6 @@ MIT License — do whatever you want with the code.
 
 ## Credits
 Developed with assistance of AI tools
+
 
 
