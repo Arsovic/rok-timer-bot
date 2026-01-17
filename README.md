@@ -118,13 +118,14 @@ py -3.10 rok_tg_bot.py
 
 ## 📝 File Structure
 
-rok-timer-bot/
-rok_panel.py # GUI panel for OCR and sending timers
-rok_tg_bot.py # Telegram bot for receiving timers
-.gitignore # Git ignore rules
-LICENSE # MIT License
-README.md # This file (English)
-README_RU.md # Russian version of README
+1. `rok_panel.py` - GUI panel for OCR and sending timers
+2. `rok_tg_bot.py` - Telegram bot for receiving timers
+3. `.gitignore` - Git ignore rules
+4. `LICENSE` - MIT License
+5. `README.md` - This file (English)
+6. `README_RU.md` - Russian version
+
+**Note:** Files like `accounts.json`, `region.json`, and `timers.json` are created automatically when you run the application and are excluded from the repository via `.gitignore`.
 
 🔧 Building .exe Files (optional)
 If you want to distribute ready-made exe files:
@@ -164,6 +165,7 @@ MIT License — do whatever you want with the code.
 
 ## Credits
 Developed with assistance of AI tools
+
 
 
 
