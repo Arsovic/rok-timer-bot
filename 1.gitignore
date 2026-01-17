@@ -1,0 +1,21 @@
+# Session files
+*.session
+*.session-journal
+
+# Data files
+accounts.json
+region.json
+timers.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.spec
+
+# IDE
+.vscode/
+.idea/
