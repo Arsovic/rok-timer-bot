@@ -142,24 +142,29 @@ Build bot:
 py -3.10 -m PyInstaller rok_tg_bot.py --onefile --noconsole --icon=waifu.ico
 Ready files will be in dist/ folder
 
-📖 Usage
-Run the bot (rok_tg_bot.py)
+## 📖 Usage
 
-Run the panel (rok_panel.py)
+Run the bot (`rok_tg_bot.py`)
+
+Run the panel (`rok_panel.py`)
 
 In the panel:
-
-Select an account or add a new one
-
-Click "Region" and select the zone with timers in the game
-
-Click "Screenshot" — timers will be automatically recognized and sent to Telegram channel
+- Select an account or add a new one
+- Click "Region" and select the zone with timers in the game
+- Click "Screenshot" — timers will be automatically recognized and sent to Telegram channel
 
 Bot will send notifications when timers complete
+
+### ⚠️ Important: Timer Recognition
+
+**The OCR only works correctly when the green progress bar has NOT yet reached the timer numbers.**
+
+If the progress bar has already covered the numbers, the timer won't be recognized. Make sure to capture screenshots while timers are still fresh (progress bar hasn't reached the digits yet).
 
 📜 License
 MIT License — do whatever you want with the code.
 
 ## Credits
 Developed with assistance of AI tools
+
 
