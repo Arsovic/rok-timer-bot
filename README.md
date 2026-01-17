@@ -159,3 +159,7 @@ Bot will send notifications when timers complete
 
 📜 License
 MIT License — do whatever you want with the code.
+
+## Credits
+Developed with assistance of AI tools
+
