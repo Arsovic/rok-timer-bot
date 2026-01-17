@@ -116,14 +116,15 @@ Running Bot (background)
 
 py -3.10 rok_tg_bot.py
 
-📝 File Structure
+## 📝 File Structure
+
 rok-timer-bot/
-├── rok_panel.py          # GUI panel for OCR and sending timers
-├── rok_tg_bot.py         # Telegram bot for receiving timers
-├── accounts.json         # Stores account list (created automatically)
-├── region.json           # Stores selected OCR region (created automatically)
-├── timers.json           # Stores active timers (created automatically)
-└── README.md             # This file
+├── rok_panel.py # GUI panel for OCR and sending timers
+├── rok_tg_bot.py # Telegram bot for receiving timers
+├── .gitignore # Git ignore rules
+├── LICENSE # MIT License
+├── README.md # This file (English)
+└── README_RU.md # Russian version of README
 
 🔧 Building .exe Files (optional)
 If you want to distribute ready-made exe files:
@@ -163,6 +164,7 @@ MIT License — do whatever you want with the code.
 
 ## Credits
 Developed with assistance of AI tools
+
 
 
 
