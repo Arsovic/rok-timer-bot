@@ -95,6 +95,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 If you installed to a different location, change the path
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 6. First Launch (Pyrogram Authorization)
 When you first run the panel, Pyrogram will ask for authorization:
 
@@ -105,6 +106,7 @@ Enter confirmation code from Telegram
 If two-factor authentication is enabled, enter password
 
 After authorization, rok_userbot.session file will be created — it stores your session locally.
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 🚀 Launch
@@ -165,6 +167,7 @@ MIT License — do whatever you want with the code.
 
 ## Credits
 Developed with assistance of AI tools
+
 
 
 
