@@ -215,9 +215,9 @@ def ocr_timers(img_crop):
     gray = cv2.resize(gray, None, fx=2.0, fy=2.0, interpolation=cv2.INTER_LINEAR)
     _, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
-    cv2.imwrite("timers_ocr_input.png", thresh)  # <- добавь эту строку
+    cv2.imwrite("timers_ocr_input.png", thresh)  
 
-    config = "--oem 3 --psm 7"  # попробуем строку целиком
+    config = "--oem 3 --psm 7"  
     text = pytesseract.image_to_string(thresh, config=config)
     print("OCR сырой текст:")
     print(repr(text))
@@ -524,3 +524,4 @@ if __name__ == "__main__":
     panel = RokPanel()
     panel.show()
     sys.exit(app.exec_())
+
